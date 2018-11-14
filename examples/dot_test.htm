@@ -157,6 +157,14 @@
 		        		google.addEventListener ("click", function() {
 							window.location.href='google.htm';									
 						});
+						var myWeb = document.createElement("button");
+						myWeb.innerHTML = "My Web Demo";
+						myWeb.className = "btn btn-info btn-lg";
+						myWeb.type = "button";
+						body.appendChild(myWeb);
+						myWeb.addEventListener ("click", function() {
+							window.location.href='my_web.htm';
+						});
 					}
 		        }
 			});

@@ -10226,14 +10226,14 @@ if (typeof exports !== 'undefined') {
     var gazeDot = document.createElement('div');
     gazeDot.style.position = 'fixed';
     gazeDot.style.zIndex = 99999;
-    gazeDot.style.left = '-5px'; //'-999em';
-    gazeDot.style.top  = '-5px';
-    gazeDot.style.width = '10px';
-    gazeDot.style.height = '10px';
+    gazeDot.style.left = '-25px'; //'-999em';
+    gazeDot.style.top  = '-25px';
+    gazeDot.style.width = '50px';
+    gazeDot.style.height = '50px';
     gazeDot.style.background = 'red';
     gazeDot.style.display = 'none';
     gazeDot.style.borderRadius = '100%';
-    gazeDot.style.opacity = '0.7';
+    gazeDot.style.opacity = '0.95';
 
     var debugVideoLoc = '';
         
@@ -10625,7 +10625,7 @@ if (typeof exports !== 'undefined') {
      */
     webgazer.showPredictionPoints = function(bool) {
         showGazeDot = bool;
-        gazeDot.style.left = '-5px';
+        gazeDot.style.left = '-25px';
         gazeDot.style.display = bool ? 'block' : 'none';
         return webgazer;
     }
